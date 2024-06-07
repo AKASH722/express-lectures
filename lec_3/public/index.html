@@ -2,37 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<form action="/check" method="post" class="bg-slate-800 text-white">
+<form action="/check" class="bg-slate-800 text-white" method="post">
   <fieldset>
     <legend>Sign Up</legend>
     <div class="m-4">
       <label for="username">Username</label>
       <input
-        type="text"
+        class="outline-none text-black px-2 h-10 rounded-lg"
         id="username"
         name="username"
         placeholder="Username"
-        class="outline-none text-black px-2 h-10 rounded-lg"
+        type="text"
       />
     </div>
     <div class="m-4">
       <label for="password">Password</label>
       <input
-        type="password"
+        class="outline-none text-black px-2 rounded-lg h-10"
         id="password"
         name="password"
         placeholder="Password"
-        class="outline-none text-black px-2 rounded-lg h-10"
+        type="password"
       />
     </div>
     <button
-      type="submit"
       class="bg-blue-600 text-white px-2 py-1 rounded-lg m-4"
+      type="submit"
     >
       Submit
     </button>

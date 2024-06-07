@@ -5,6 +5,7 @@
 // 4. use get method to request data
 
 import express from "express";
+
 const app = express();
 app.use(express.static("public", { index: "task_2.html" }));
 app.use(express.urlencoded({ extended: false }));

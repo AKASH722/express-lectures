@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -12,30 +12,30 @@
     <div>
       <label for="n1">N1: </label>
       <input
-              type="number"
-              class="px-2 py-1 border-black border-2 rounded-md"
-              name="n1"
-              id="n1"
-              required
+        class="px-2 py-1 border-black border-2 rounded-md"
+        id="n1"
+        name="n1"
+        required
+        type="number"
       />
     </div>
     <div>
       <label for="n2">N2: </label>
       <input
-              type="number"
-              class="px-2 py-1 border-black border-2 rounded-md"
-              name="n2"
-              id="n2"
-              required
+        class="px-2 py-1 border-black border-2 rounded-md"
+        id="n2"
+        name="n2"
+        required
+        type="number"
       />
     </div>
     <div>
       <label for="operation">Operation: </label>
       <select
-              name="operation"
-              id="operation"
-              class="outline-none border-black rounded-md border-2 bg-slate-150"
-              required
+        class="outline-none border-black rounded-md border-2 bg-slate-150"
+        id="operation"
+        name="operation"
+        required
       >
         <option value="add">ADD</option>
         <option value="sub">SUB</option>
@@ -44,7 +44,7 @@
       </select>
     </div>
     <div>
-      <button type="submit" class="bg-blue-600 px-2 py-1 rounded-md text-white">Submit</button>
+      <button class="bg-blue-600 px-2 py-1 rounded-md text-white" type="submit">Submit</button>
     </div>
   </div>
 </form>

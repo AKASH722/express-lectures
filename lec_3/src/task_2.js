@@ -3,6 +3,7 @@
 // value should be printed otherwise by printing warning msg in red color it should terminate
 
 import express from "express";
+
 const app = express();
 app.use(express.static("public", { index: "task_2.html" }));
 app.use(express.urlencoded({ extended: false }));

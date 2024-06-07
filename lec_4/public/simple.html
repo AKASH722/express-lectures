@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Contact Form</title>
+</head>
+<body>
+
+<h2>Feedback Form</h2>
+
+<form action="/submit" method="get">
+  <div>
+    <label for="name">Name:</label><br>
+    <input id="name" name="name" required type="text"><br><br>
+  </div>
+  <div>
+    <label for="email">Email:</label><br>
+    <input id="email" name="email" required type="email"><br><br>
+  </div>
+  <div>
+    <label for="message">Message:</label><br>
+    <textarea cols="50" id="message" name="message" required rows="4"></textarea><br><br>
+  </div>
+  <div>
+    <label for="rating">Rating:</label><br>
+    <input id="bad" name="rating" required type="radio" value="Bad">
+    <label for="bad">Bad</label><br>
+    <input id="average" name="rating" type="radio" value="Average">
+    <label for="average">Average</label><br>
+    <input id="good" name="rating" type="radio" value="Good">
+    <label for="good">Good</label><br>
+    <input id="very-good" name="rating" type="radio" value="Very Good">
+    <label for="very-good">Very Good</label><br>
+    <input id="excellent" name="rating" type="radio" value="Excellent">
+    <label for="excellent">Excellent</label><br><br>
+  </div>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
