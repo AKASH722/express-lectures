@@ -1,0 +1,25 @@
+html
+    head
+        title Pug Example
+    body
+        h1 Hello World
+        p Hello Student
+        i Thank you
+        h5(style=`text-transform: uppercase; color: red`) hello
+        ul
+            li Mango
+            li Orange
+        a(href=`/about` target=`_blank`) About
+        table(border=`1px solid`, style=`border-collapse: collapse; color: red`)
+            tr
+                th Name
+                th Id
+            tr
+                td ABC
+                td 1
+      -var number = 2;
+      -var color = 'black';
+      -var list = ['india', 'uk']
+        p=number * 3
+        p=color
+        p=list
