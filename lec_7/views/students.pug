@@ -1,0 +1,14 @@
+html
+    head
+        title Student Information
+    body
+        table(border=1, rules='all', cellpadding=4)
+            tr
+                th Name
+                th Email
+                th Course
+      each student in students
+          tr
+              td= student.name
+              td= student.email
+              td= student.course || "No course specified"
